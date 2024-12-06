@@ -14,6 +14,7 @@ ___
 
 ### Q: If you are integrating tokens, are you allowing only whitelisted tokens to work with the codebase or any complying with the standard? Are they assumed to have certain properties, e.g. be non-reentrant? Are there any types of [weird tokens](https://github.com/d-xo/weird-erc20) you want to integrate?
 The owner can manage which tokens can utilize the contract's functionality to prevent non-standard and incompatible tokens from being used. 
+USDT should be considered in-scope of this audit
 ___
 
 ### Q: Are there any limitations on values set by admins (or other roles) in the codebase, including restrictions on array lengths?
